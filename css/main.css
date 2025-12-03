@@ -1,0 +1,618 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Plus Jakarta Sans;
+  margin: 0;
+}
+.container{
+  width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul,ol{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,h2,h3,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+
+/* start header */
+
+.header{
+  border-bottom: 1px solid #EEEEF4;
+}
+
+.header-wrapper{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.header-list{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.header-tel{
+    margin-left: auto;
+    width: 156px;
+    background: #101010;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0px;
+}
+
+.header-tel:hover{
+    background: #FFFFFF;
+    border: 1px solid #1AAB7B;
+    color: #1AAB7B;
+}
+
+.header-tel:active{
+    background-color: #101010;
+    opacity: 0.6;
+    border: inherit;
+    color: #FFFFFF;
+}
+
+.header-logo:hover{
+    opacity: 0.8;
+}
+
+.header-logo:active{
+    opacity: 0.6;
+}
+
+.header-link{
+    font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0px;
+color: #101010;
+}
+
+.header-link:hover{
+    color: #1AAB7B;
+}
+
+.header-link:active{
+    color: #1AAB7B;
+    opacity: 0.6;
+}
+
+/* finish header */
+
+/* start main */
+
+/* start hero section */
+
+.hero-wrapper{
+  display: flex;
+  margin-top: 91px;
+}
+
+.hero-title{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0px;
+color: #101010;
+margin-bottom: 20px;
+}
+
+.hero-desc{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0px;
+color: #636F87;
+margin-bottom: 40px;
+}
+
+.hero-link{
+  display: block;
+  width: 168px;
+  border-radius: 6px;
+  background-color: #1AAB7B;
+  padding: 20px;
+  color: #FFFFFF;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.hero-link:hover{
+  background-color: #FFFFFF;
+  color: #1AAB7B;
+  border: 1.5px solid #1AAB7B
+}
+
+.hero-link:active{
+  background-color: #1AAB7B;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.hero-left{
+  margin-right: 74px;
+  width: 550;
+}
+
+.hero-photo{
+  border-radius: 6px;
+}
+
+/* finish hero section */
+
+/* start help section */
+
+.help{
+  background-color: #F2F4F6;
+  margin-top: 156px;
+  padding-bottom: 50px;
+}
+
+.help-item{
+  width: 384px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  border: 2px solid #E1E7ED;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+}
+
+.help-item:hover{
+  background: #1AAB7B;
+}
+
+.help-item:hover .help-subtitle{
+  color: #FFFFFF;
+}
+
+.help-item:hover .help-desc{
+  color: #FFFFFF;
+}
+
+.help-item:hover .help-link{
+  color: #FFFFFF;
+}
+
+.help-list{
+  margin-top: 40px;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.help-title{
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: center;
+color: #101010;
+padding-top: 50px;
+}
+
+.help-subtitle{
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0px;
+color: #101010;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.help-subtitle::after{
+  display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/pen-tool.svg);
+  background-repeat: no-repeat;
+  background-color: #E1E7ED;
+  background-position: center;
+  border-radius: 84px;
+}
+
+.help-item:nth-child(2) .help-subtitle::after{
+  background-image: url(./images/chart-2.svg);
+} 
+
+.help-item:nth-child(3) .help-subtitle::after{
+  background-image: url(./images/blur.svg);
+}   
+
+.help-item:nth-child(4) .help-subtitle::after{
+  background-image: url(./images/simcard.svg);
+}   
+
+.help-item:nth-child(5) .help-subtitle::after{
+  background-image: url(./images/designtools.png);
+} 
+
+.help-desc{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #636F87;
+}
+
+.help-link{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.help-item:nth-child(1) .help-desc{
+  margin-bottom: 50px;
+}
+
+.help-item:nth-child(2) .help-desc{
+  margin-bottom: 23px;
+}
+
+.help-item:nth-child(3) .help-desc{
+  margin-bottom: 23px;
+}
+
+.help-item:nth-child(4) .help-desc{
+  margin-bottom: 50px;
+}
+
+.help-item:nth-child(5) .help-desc{
+  margin-bottom: 23px;
+}
+
+/* finish help section */
+
+/* start work section */
+
+.work-head-box{
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.work-title{
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0px;
+color: #101010;
+margin-top: 100px;
+text-align: center;
+}
+
+.work-info{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+color: #636F87;
+text-align: center;
+}
+
+.work-box{
+  width: 488px;
+  margin-left: 32px;
+}
+
+.work-item{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.work-item:nth-child(2){
+  flex-direction: row-reverse;
+}
+
+.work-item:nth-child(2) .work-text{
+  margin-right: 32px;
+}
+
+.work-subtitle{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0px;
+color: #101010;
+margin-bottom: 20px;
+}
+
+.work-desc{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0px;
+color: #636F87;
+}
+
+/* finish work section */
+
+/* start contact section */
+
+.contact-head-box{
+  width: 650px;
+  margin-top: 150px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.contact-title-box{
+  width: 411px;
+  margin: 0 auto;
+}
+
+.contact-title{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 16px;
+color: #101010;
+}
+
+.contact-info{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: #636F87;
+}
+
+.input{
+  width: 1008px;
+  background-color: #F2F4F6;
+  margin: 0 auto; 
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-bottom: 200px;
+  border-radius: 6px;
+}
+
+.name-input{
+  display: block;
+  width: 384px;
+  margin: 0 auto;
+  padding-bottom: 21px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #636F87;
+  margin-bottom: 51px;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #101010;
+
+}
+
+.name-input::placeholder{  
+color: black;
+}
+
+.button-input{
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  background-color: #1AAB7B;
+  padding: 20px;
+  text-align: center;
+  border: inherit;
+  border-radius: 6px;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+
+.contact-desc{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: center;
+color: #858EA1;
+margin-bottom: 64px;
+}
+
+/* finish contact */
+
+.footer{
+  background-color: #101010;
+  padding-top: 100px;
+}
+
+.footer-top{
+  display: flex;
+}
+
+.footer-text{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.footer-list{
+  margin-bottom: 100px;
+}
+
+.footer-list:nth-child(1){
+  width: 161px;
+  margin-right: 151px;
+}
+
+.footer-list:nth-child(2){
+  margin-right: 521px;
+  width: 103px;
+}
+
+.footer-list:nth-child(3){
+  width: 280px;
+}
+
+.footer-item{
+  margin-bottom: 26px;
+}
+
+.footer-link{
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0px;
+color: #A1A8B7;
+}
+
+.footer-link:hover{
+  color: #1AAB7B;
+}
+
+.footer-logo{
+  display: flex;
+  gap: 40px;
+}
+
+.footer-line{
+  margin-bottom: 50px;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.footer-bottom-info{
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+
+/* finish footer */
