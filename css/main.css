@@ -37,6 +37,7 @@
 body{
   font-family: Plus Jakarta Sans;
   margin: 0;
+  overflow-x: hidden;
 }
 .container{
   width: 1260px;
@@ -530,6 +531,8 @@ margin-bottom: 64px;
 }
 
 /* finish contact */
+
+/* start footer */
 
 .footer{
   background-color: #101010;
